@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/todo_main.css">
+</head>
+
+<body>
+<header class="teal lighten-2 text-lighten-5">
+    <h1 class="white-text">Список дел</h1>
+</header>
+    <div class="container">
+
+        <form action="#" id="todo-list"></form>
+        <a id="todo-btn" class="waves-effect waves-light btn">Удалить</a>
+        <div class="row">
+            <div class="input-field col s6">
+                <input value="" id="head" type="text" class="validate">
+                <label class="active" for="head">Наименование</label>
+            </div>
+            <div class="input-field col s6">
+                <input value="" id="body" type="text" class="validate">
+                <label class="active" for="body">Описание</label>
+            </div>
+            <a id="todo-btn-create" class="waves-effect waves-light btn">Добавить</a>
+        </div>
+    </div>
+<!--Import jQuery before materialize.js-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/todo_js.js"></script>
+</body>
+</html>
